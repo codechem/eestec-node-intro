@@ -1,0 +1,25 @@
+{
+  "name": "node-intro",
+  "version": "1.0.0",
+  "description": "FINKI Node Intro presentaiton ",
+  "main": "hello-world.js",
+  "scripts": {
+    "start": "node hello-world.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.codechem.com/eestec/node-intro"
+  },
+  "keywords": [
+    "finki",
+    "node",
+    "codechem",
+    "cc",
+    "js"
+  ],
+  "author": "Costa Halicea",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^17.0.0"
+  }
+}
