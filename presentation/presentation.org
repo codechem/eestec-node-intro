@@ -1,7 +1,6 @@
 #+title: Node.js I0I
 #+ATTR_ORG: :width 600
 [[./cc.png]]
-* Bravo for the idea
 * About me
 Name: Costa Halicea
 - Exp:
