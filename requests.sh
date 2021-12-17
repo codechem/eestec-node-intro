@@ -2,7 +2,7 @@ open http://localhost/
 
 http :
 
-http :/api/message
+http --offline :/api/message
 
 http :/public/index.html
 

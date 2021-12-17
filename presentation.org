@@ -1,0 +1,86 @@
+#+title: Node.js I0I
+#+ATTR_ORG: :width 600
+[[./cc.png]]
+* Bravo for the idea
+* About me
+Name: Costa Halicea
+- Exp:
+    Coding for the last 20 years.
+    @CC from its begingings.
+- Why am I here:
+    I met Node 11 years ago & using it frequently ever since.
+    CC has some amazing Node.js engineers, and some of them
+    will walk you through Node in the following weekend.
+- Bio:
+    Love my job, I enjoy doing what i do every day.
+    Crafting software is my hobby and my job.
+    In the last couple of years:
+      The work style I run is: Trying to find simple tools and simple solutions.
+
+* About CC
+- Since you are going to see us quite a lot in the next weeked:
+   I'll not speak about our competences as engineers, or character, or attitude towards our work and between us. That should be an info that you take from these lectures.
+- CC has always been a place where:
+  1. A lot of experimentation happens.
+  2. Where passionate engineers discuss, share and evaluate interesting ideas.
+  3. OSS is a core value, and we contribute to many projects either with bugfixes or active contributors.
+  4. Every engineer has the right context to evolve and build her/his carreer following their passion.
+  5. Our pride lays in what we produce. When it goes in the wild we make sure it is pitch perfect.
+
+** Some stats
+   - Out of 9 active projects:
+      4 are World No.1 in their respective industries
+
+   - No 1. Conmpany by retention rate.
+      Have 1 person left in the last 6 years
+
+   - With only ~50 engineers, we cover a lot of ground:
+     - Web, Mobile, ML, Embedded, Test &Automation, Cloud & Dev Ops
+        And everythign in between.
+     - .Net, Python, Js, Ts, Lisp, C, C++, Rust
+     - Agriculture, HVAC, Education, Publishing, Colors, Automation, CRM, DMS, Insurance, Security
+
+* Agenda Part I
+** The intent of this presentation
+- Node is very simple
+- To give you a background roughly how things are running without all the framework clutter.
+** [#B] Audience check
+- Node??
+- Js??
+- Npm??
+- Web/REST/Http??
+** Me and Node
+- How I found about Node.js
+** Node.Js yesterday and today
+*** Threaded was and still mainly is the model today
+But the fast guys are not using it frequently nowdays.
+
+*** Node non-blocking IO, and how it simplifies our lives.
+#+ATTR_ORG: :width 600
+[[./event-loop.png]]
+- Ryan Dahl, had an idea
+- And proved that most of the world can run on a "signle thread".
+*** Why people are so lured towards node?
+  - Fast startup
+  - Simple
+  - Lots of people know js
+  - js is forgiving(this is not good).
+
+** Setup
+- node
+  the vm itself
+  https://nodejs.org/en/
+- nvm
+  when you need multiple versions of node , this is the tool to go
+  https://github.com/nvm-sh/nvm
+- nodemon
+  restarts a program when a file changes
+  https://github.com/remy/nodemon/
+** Hello world
+** Something real
+*** Package management - NPM
+*** Module system
+*** IO library, how it works
+*** NodeJs process
+* Useful links
+** https://nodejs.dev/learn/a-brief-history-of-nodejs

@@ -1,5 +1,5 @@
-var http = require('http');
-var { static, html, json, error, parseJson, saveFileAsync } = require('./util');
+const http = require('http');
+const { static, html, json, error, parseJson, saveFileAsync } = require('./util');
 let server = http.createServer(async (req, res) => {
   if (req.url == '/')
     static(res, './public/index.html');
